@@ -2,21 +2,21 @@ package Com.Bridglabz;
 
 public class DeckOfCard {
 	  public static void main(String[] args) {
-	        String[] SUITS = {
-	                "Clubs", "Diamonds", "Hearts", "Spades"
+	        String[] Suits = {
+	                "Clubs", "Diamonds", "Spades", "Hearts"
 	        };
 
-	        String[] RANKS = {
-	                "2", "3", "4", "5", "6", "7", "8", "9", "10",
-	                "Jack", "Queen", "King", "Ace"
+	        String[] Ranks = {
+	                "2", "3", "4", "5", "6", "7", "8", "9", "10","Ace"
+	                "Jack", "Queen", "King"
 	        };
 
-	        // initialize deck
-	        int n = SUITS.length * RANKS.length;
+	       
+	        int n = Suits.length * Ranks.length;
 	        String[] deck = new String[n];
-	        for (int i = 0; i < RANKS.length; i++) {
-	            for (int j = 0; j < SUITS.length; j++) {
-	                deck[SUITS.length*i + j] = RANKS[i] + " of " + SUITS[j];
+	        for (int i = 0; i < Ranks.length; i++) {
+	            for (int j = 0; j < Suits.length; j++) {
+	                deck[Suits.length*i + j] = Ranks[i] + " of " + Suits[j];
 	            }
 	        }
 
@@ -26,7 +26,7 @@ public class DeckOfCard {
 	            deck[r] = deck[i];
 	            deck[i] = temp;
 	        }
-	        // print shuffled deck
+	       
 	        for (int i = 0; i < n; i++) {
 	            System.out.println(deck[i]);
 	        }
