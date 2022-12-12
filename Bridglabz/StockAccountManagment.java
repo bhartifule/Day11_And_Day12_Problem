@@ -58,12 +58,6 @@ public class StockAccountManagment {
 
     @Override
     public String toString() {
-        return "Stock{" +
-                "stockName='" + stockName + '\'' +
-                ", numberOfShares=" + numberOfShares +
-                ", sharePrize=" + sharePrize +
-                ", totalValueOfStock=" + totalValueOfStock +
-                ", valueOfStock=" + valueOfStock +
-                '}';
+        return "Stock{" + "stockName='" + stockName + '\'' +", numberOfShares=" + numberOfShares +", sharePrize=" + sharePrize + ", totalValueOfStock=" + totalValueOfStock + ", valueOfStock=" + valueOfStock + '}';
     }
 }
