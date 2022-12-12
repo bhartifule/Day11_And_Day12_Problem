@@ -7,7 +7,7 @@ public class DeckOfCard {
 	        };
 
 	        String[] Ranks = {
-	                "2", "3", "4", "5", "6", "7", "8", "9", "10","Ace"
+	                "2", "3", "4", "5", "6", "7", "8", "9", "10","Ace",
 	                "Jack", "Queen", "King"
 	        };
 
