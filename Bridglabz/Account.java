@@ -13,9 +13,9 @@ public class Account {
 	    }
 
 	    public static void main(String[] args) {
-	        Account union = new Account();
-	        union.accountBalance = 10000;
-	        union.debit(5000);
-	        union.debit(10000);
+	        Account acc = new Account();
+	        acc.accountBalance = 10000;
+	        acc.debit(5000);
+	        acc.debit(10000);
 	    }
 }
