@@ -14,7 +14,7 @@ public class PortFolio {
     }
 
     private static void insertStockes() {
-        System.out.println("How much stock you want to insert ");
+        System.out.println("How much stock you want ");
         int numberOfStock = scan.nextInt();
         System.out.println("Insert stock name and stock prise ");
         for (int i = 1; i <= numberOfStock; i++) {
